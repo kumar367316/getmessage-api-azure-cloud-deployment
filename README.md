@@ -1,1 +1,1 @@
-# getmessage-api-azure-cloud-deployment
+# spring-azure-demo
