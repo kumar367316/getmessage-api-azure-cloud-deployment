@@ -68,7 +68,7 @@ public class AzureBlobService {
 			}
 		} catch (StorageException | IOException | URISyntaxException | InvalidKeyException exception) {
 
-			System.exit(-1);
+			System.out.println("Exception Message:"+exception);
 		}
 
 		return "success";
