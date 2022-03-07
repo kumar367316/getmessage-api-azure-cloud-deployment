@@ -48,7 +48,7 @@ public class AzureBlobService {
 		return result;
 	}
 
-	public String getFile(String name) {
+	public String getFile() {
 		String storageConnection = "DefaultEndpointsProtocol=https;AccountName=pcl1;AccountKey=qjdSFfLVHAgRYqybiDTIxiddxi0kgpJzCGvyMzK2KFQJkrvhDX3scFwOkJu5EIL/5L8AZopeBGEPZLCiMVaShw==";
 		try {
 			CloudStorageAccount account = CloudStorageAccount.parse(storageConnection);
