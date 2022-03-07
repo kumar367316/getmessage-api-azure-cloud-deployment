@@ -27,9 +27,9 @@ public class SpringAzureDemoApplication {
 		SpringApplication.run(SpringAzureDemoApplication.class, args);
 	}
 	
-	@GetMapping(path = "/download")
-	public String uploadFile(@RequestParam(value = "file") String file) throws IOException {
-		return azureAdapter.getFile(file);
+	@GetMapping("/download")
+	public String uploadFile() throws IOException {
+		return azureAdapter.getFile();
 		/*
 		 * ByteArrayResource resource = new ByteArrayResource(data);
 		 * 
